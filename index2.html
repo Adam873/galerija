@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+      
+    
+        p {text-align: justify;
+        margin: 50px auto;
+        width: 90%;
+        }
+
+        h1 {
+            text-align: left;
+            margin-left: 40px;
+        }
+
+      .box {
+          width: 130px;
+          height: 100px;
+          background-color: blue;
+          background-image: url(placeholder-image.png);
+          border-radius: 8px;
+          border: 1px solid black;
+          overflow: hidden;
+        
+          
+      }
+    
+     .text{ 
+         text-align: center;
+         width: 130px;
+         background-color: white;
+         border: 1px white;
+         position: relative;
+       bottom: 22px ;
+     }
+      
+
+      
+
+
+      #grid1 {
+          margin: 10px auto;
+        max-width: 1024px;
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+         gap: 5em;
+    
+      }
+
+
+      @media screen and  (max-width:1024px) 
+      
+      {
+        #grid1 {
+            grid-template-columns: repeat(5,1fr);
+        }
+        
+
+      }
+          
+      
+
+      @media screen and (max-width:768px) 
+      
+      {
+
+        #grid1 {
+            grid-template-columns: repeat(3, 1fr);
+        }
+         
+      }
+
+
+    @media screen and (max-width: 414px) {
+
+
+
+        #grid1 {
+            grid-template-columns: repeat(1,1fr);
+        }
+    }
+
+
+    </style>
+
+
+
+</head>
+<body>
+
+      <h1>Gallery Heading</h1>
+
+    <div id="grid1">
+        <div class="box">
+            <img src="placeholder-image.png" height="100px" width="130px">
+            <div class="text">Image Title</div>
+            </div>
+
+        <div class="box">
+                <img src="placeholder-image.png" height="100px" width="130px">
+                <div class="text">Image Title</div>
+                </div>
+
+        <div class="box">
+            <img src="placeholder-image.png" height="100px" width="130px">
+            <div class="text">Image Title</div>
+        </div>
+
+
+        <div class="box">
+            <img src="placeholder-image.png" height="100px" width="130px">
+            <div class="text">Image Title</div>
+            </div>
+
+         <div class="box">
+                <img src="placeholder-image.png" height="100px" width="130px">
+                <div class="text">Image Title</div>
+                </div>
+
+        <div class="box">
+            <img src="placeholder-image.png" height="100px" width="130px">
+            <div class="text">Image Title</div>
+             </div>
+        
+
+             <div class="box">
+                <img src="placeholder-image.png" height="100px" width="130px">
+                <div class="text">Image Title</div>
+            </div>
+    
+    
+            <div class="box">
+                <img src="placeholder-image.png" height="100px" width="130px">
+                <div class="text">Image Title</div>
+                </div>
+    
+             <div class="box">
+                    <img src="placeholder-image.png" height="100px" width="130px">
+                    <div class="text">Image Title</div>
+                    </div>
+    
+            <div class="box">
+                <img src="placeholder-image.png" height="100px" width="130px">
+                <div class="text">Image Title</div>
+                 </div>
+        
+    </div>
+
+
+
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p> 
+
+   
+    
+</body>
+</html>
